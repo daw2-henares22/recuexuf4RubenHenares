@@ -1,3 +1,4 @@
+import { createContext, useState } from 'react';
 import db from'../db.json'
 
 export const GlobalContext = createContext();
